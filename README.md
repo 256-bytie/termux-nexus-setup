@@ -34,7 +34,26 @@ source env_setup.sh
 ```
 Tip: The above script saves variables to env_setup.sh so you can run source env_setup.sh anytime you need them.
 
-**6. 
+**6. Ensure you have a Rust project initialized:** 
+You need to have a Rust project set up with Cargo.toml. If you haven’t created one, run:
+```bash
+cargo init --bin
+```
+This command creates a new Rust binary project in your current directory with a Cargo.toml file.
+
+**7. Build the Project**
+Use Cargo to build:
+```bash
+cargo build --release
+```
+**8.  Install Nexus CLI**
+Run the Nexus setup script:
+```bash
+curl -sSL cli.nexus.xyz | sh
+```
+
+
+
 
 
 
