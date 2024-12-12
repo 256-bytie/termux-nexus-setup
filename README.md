@@ -1,7 +1,7 @@
 # **Revised-Guide-to-Run-Nexus-on-Termux**
 
-**1. Preparation**
-1 Ensure Termux is installed from a trusted source (like F-Droid or GitHub). 
+**1. Preparation** 
+> Ensure Termux is installed from a trusted source (like F-Droid or GitHub) or Playstore.
 
 **2. System Update**
 Run a full update:
